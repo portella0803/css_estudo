@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url(Lover.ttf) format(opentype);
+            font-weight: normal;
+
+            /*
+            Tipos de format()
+            - opentype(otf)
+            - trutype(ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advence Typography)
+            - svg
+            */
+        }
+
+        body{
+            font-family: 'love';
+        }
+
+        h1 {
+            font-family: 'love';
+            font-size: 3em;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Título</h1>
+    <p>çLorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio est nobis voluptas accusantium harum consequatur, ad quasi asperiores minima, corrupti voluptatibus facilis rerum modi voluptatum qui ea maxime! Delectus, nostrum.</p>
+</body>
+</html>
